@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>SoftwareTesting</name>
+	<comment></comment>
+	<projects>
+		<project>src</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/softwaretesting/Group_C Girls.xlsx</name>
+			<type>1</type>
+			<location>C:/Users/aishv/Downloads/Group_C Girls.xlsx</location>
+		</link>
+		<link>
+			<name>src/softwaretesting/Group_C_Girls(Debugging_Report)[1].docx</name>
+			<type>1</type>
+			<location>C:/Users/aishv/Downloads/Group_C_Girls(Debugging_Report)[1].docx</location>
+		</link>
+		<link>
+			<name>src/softwaretesting/Test 360 Decor(1).xlsx</name>
+			<type>1</type>
+			<location>C:/Users/aishv/Downloads/Test 360 Decor(1).xlsx</location>
+		</link>
+	</linkedResources>
+</projectDescription>
