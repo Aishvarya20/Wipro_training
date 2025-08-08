@@ -1,0 +1,31 @@
+package Jdbc_eg;
+ 
+import java.sql.*;
+ 
+public class patienteg
+{
+public static void main(String[] args)
+	{
+ 
+	try {
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Hospitaldata", "root", "Aishvarya@20");
+		//System.out.println("Connected Successsfully");
+		
+		Statement stmt=con.createStatement();
+		
+		String sql="CREATE TABLE IF NOT EXISTS patient("+"id INT PRIMARY KEY AUTO_INCREMENT,"
+				+ "name VARCHAR(100),"+"age INT,"+"disesase VARCHAR(100))";
+		
+		stmt.executeUpdate(sql);
+		System.out.println("Table 'patient' created successfully.");
+		con.close();
+	 }
+	catch (Exception e)
+	{
+	e.printStackTrace();
+			
+	}
+	}
+}
